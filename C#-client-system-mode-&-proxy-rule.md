@@ -1,4 +1,4 @@
-# 区别如图
+## 区别如图
 
 ![](https://cloud.githubusercontent.com/assets/8436963/22097160/930b8240-de5a-11e6-9819-7cbccbd1be34.png)
 
