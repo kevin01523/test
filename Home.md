@@ -1,6 +1,6 @@
 # ShadowsocksR
 主页：<a href="https://breakwa11.github.io/">https://breakwa11.github.io/</a><br>  
-Wiki：<a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki">https://github.com/Ssrbackup/shadowsocks-rss/wiki</a><br>
+Wiki：<a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki">https://github.com/Ssrbackup/shadowsocks-rss/wiki</a>
 ZeroNet主页：<a href="http://127.0.0.1:43110/shadowsocksr.bit">shadowsocksr.bit</a><br>
 ShadowsocksR主要分支：<a href="https://github.com/shadowsocksrr/shadowsocksr-csharp">SSR C#</a>, <a href="https://github.com/shadowsocksrr/shadowsocksr/tree/manyuser">SSR python manyuser</a>, <a href="https://github.com/shadowsocksrr/shadowsocksr-libev">SSR-libev</a><br>
 Android APP: <a href="https://github.com/shadowsocksrr/shadowsocksr-android/releases">SSR-android</a><br>
