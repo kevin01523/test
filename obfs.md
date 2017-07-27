@@ -1,6 +1,6 @@
 # 协议和混淆插件说明
 
-具体说明参阅https://raw.githubusercontent.com/Ssrbackup/shadowsocks-rss/master/Reference%20data/ssr.png  ，这里提供一个给新人简易的指导（如文档有变动以以上这个链接的文档为准）
+具体说明参阅https://github.com/Ssrbackup/shadowsocks-rss/blob/master/Reference%20data/ssr.md  ，这里提供一个给新人简易的指导（如文档有变动以以上这个链接的文档为准）
 
 ## 工作原理
 
