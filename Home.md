@@ -9,7 +9,7 @@ MAC APP：<a href="https://github.com/qinyuhang/ShadowsocksX-NG/releases">Shadow
 其它跨平台分支：<a href="https://github.com/avege/avege">avege</a>, <a href="https://github.com/erguotou520/electron-ssr">electron-ssr</a><br>
 Docker: <a href="https://hub.docker.com/r/breakwa11/shadowsocksr/">https://hub.docker.com/r/breakwa11/shadowsocksr/</a><br>
 发布链接：<a href="https://github.com/breakwa11/shadowsocks-rss">https://github.com/breakwa11/shadowsocks-rss</a><br>
-服务端配置教程：<a href="https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup">单用户教程</a>
+服务端配置教程：<a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup">单用户教程</a>
 <a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup(manyuser-with-mysql)">数据库多用户教程</a><br>
 <a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup(manyuser-with-mudbjson)">json版多用户教程</a>（仅一台服务器适用）</p>
 
