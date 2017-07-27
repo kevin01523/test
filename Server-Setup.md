@@ -44,10 +44,10 @@ bash initcfg.sh
 <pre><code>tail -f /var/log/shadowsocksr.log
 </code></pre>
 <p>用 -h 查看所有参数</p>
-<p>####使用配置文件运行####</p>
+<p>#### 使用配置文件运行 ####</p>
 <p>如果你的ss目录是<code>~/shadowsocksr</code>，进入这里<br>
 修改<code>user-config.json</code>中的<code>server_port</code>，<code>password</code>等字段，具体可参见：<br>
-<a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/config.json">https://github.com/breakwa11/shadowsocks-rss/wiki/config.json</a></p>
+<a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/config.json">https://github.com/Ssrbackup/shadowsocks-rss/wiki/config.json</a></p>
 <p>运行子目录内的server.py：</p>
 <pre><code>python server.py
 </code></pre>
@@ -83,10 +83,10 @@ Android客户端，Shadowrocket（iOS客户端之一，iTunes售价$3美元/￥1
 <a href="https://github.com/shadowsocksrr/shadowsocksr-csharp">Windows</a> / <a href="https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help">OS X</a> / <a href="https://github.com/yichengchen/ShadowsocksX-R">ShadowsocksX-NG</a>
 </li>
 <li>
-<a href="https://github.com/shadowsocksr/shadowsocksr">Linux python</a> / <a href="https://github.com/librehat/shadowsocks-qt5">Linux Qt</a>
+<a href="https://github.com/shadowsocksrr/shadowsocksr">Linux python</a> / <a href="https://github.com/librehat/shadowsocks-qt5">Linux Qt</a>
 </li>
 <li>
-<a href="https://github.com/shadowsocksr/shadowsocksr-android">Android</a> / <a href="https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help">iOS</a> / <a href="https://itunes.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a>
+<a href="https://github.com/shadowsocksrr/shadowsocksr-android">Android</a> / <a href="https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help">iOS</a> / <a href="https://itunes.apple.com/us/app/shadowrocket/id932747118">Shadowrocket</a>
 </li>
 <li><a href="https://github.com/shadowsocks/openwrt-shadowsocks">OpenWRT</a></li>
 </ul>
@@ -99,12 +99,3 @@ Android客户端，Shadowrocket（iOS客户端之一，iTunes售价$3美元/￥1
 <a id="user-content-其它异常" class="anchor" href="#%E5%85%B6%E5%AE%83%E5%BC%82%E5%B8%B8" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>其它异常</h3>
 <p>如果你的服务端python版本在2.6以下，那么必须更新python到2.6.x或2.7.x版本</p>
 <p>其它参见 <a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/ulimit">https://github.com/Ssrbackup/shadowsocks-rss/wiki/ulimit</a></p>
-
-        </div>
-
-    </div>
-    </div>
-  </div>
-  </div>
-
-  </div>
