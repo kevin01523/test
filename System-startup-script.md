@@ -1,7 +1,9 @@
 <p>#启动脚本</p>
 <p>以下启动脚本均假定shadowsocks-rss安装于/usr/local/shadowsocksr目录，配置文件为/usr/local/shadowsocksr/user-config.json，请按照实际情况自行修改</p>
 <p>SysVinit启动脚本，适合CentOS/RHEL6系以及Ubuntu 14.x，Debian7.x</p>
+
 ```
+
 #!/bin/sh
 # chkconfig: 2345 90 10
 # description: Start or stop the Shadowsocks R server
@@ -81,7 +83,9 @@ case "$1" in
     ;;
 esac
 exit $RETVAL
+
 ```
+
 <p>请将上述脚本保存为/etc/init.d/shadowsocks<br>
 CentOS/RHEL6 执行:</p>
 <pre><code>chmod 755 /etc/init.d/shadowsocks &amp;&amp; chkconfig --add shadowsocks &amp;&amp; service shadowsocks start
