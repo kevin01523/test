@@ -31,7 +31,7 @@ out_bindv6	force bind this IPv6 IP	强制绑定此IPv6地址
 additional_ports	additional ports for multiuser mode	多用户模式下配置额外端口
 speed_limit_per_con	rate limit for each connection	单连接限速，单位KB
 speed_limit_per_user	rate limit for each user	单用户限速，单位KB
-其中各protocol与obfs介绍参见：混淆插件说明
+其中各protocol与obfs介绍参见：
 
 注：客户端的protocol和obfs配置必须与服务端的一致，除非服务端配置为兼容插件。
 
@@ -46,17 +46,22 @@ dns_ipv6参数说明：
 为true则指定服务器优先使用IPv6地址。仅当服务器能访问IPv6地址时可以用，否则会导致有IPv6地址的网站无法打开。
 
 一般情况下，只需要修改以下五项即可：
-'''
+
+
+```
 "server_port":8388,        //端口
 "password":"password",     //密码
 "protocol":"origin",       //协议插件
 "obfs":"http_simple",      //混淆插件
 "method":"aes-256-cfb",    //加密方式
-'''
-多端口配置
+```
+
+
+## 多端口配置
 
 如果要多个用户一起使用的话，请写入以下配置：
-'''
+
+```
 {
     "server":"0.0.0.0",
     "server_ipv6": "[::]",
@@ -77,17 +82,22 @@ dns_ipv6参数说明：
     "fast_open": false,
     "workers": 1
 }
-'''
+```
+
+
 按照格式修改端口和密码：
-'''
-    "port_password":{                  
+
+```    "port_password":{                  
         "80":"password1",       //端口和密码1
         "443":"password2"       //端口和密码2 
     },         
-'''
-如果要为每个端口配置不同的混淆协议，请写入以下配置：
-'''
+```
 
+
+如果要为每个端口配置不同的混淆协议，请写入以下配置：
+
+
+```
 {
     "server":"0.0.0.0",
     "server_ipv6":"::",
@@ -108,5 +118,6 @@ dns_ipv6参数说明：
     "fast_open": false,
     "workers": 1
 }
-'''
+```
+
 按格式修改端口、密码以及混淆协议。也可以和以前的格式混合使用，如果某个端口不配置混淆协议，则会使用下面的默认"obfs"配置。
