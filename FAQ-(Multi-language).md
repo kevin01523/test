@@ -32,7 +32,7 @@
 
 * What does SSR stand for?
 
-SSR is ShadowSocksR, some people call it Shadowsocks-rss which is wrong. RSS stands for Really Simple Syndication.
+  SSR is ShadowSocksR, some people call it Shadowsocks-rss which is wrong. RSS stands for Really Simple Syndication.
 
 * Do server side obfuscation parameters need to be the same as the client side configuration?
 
