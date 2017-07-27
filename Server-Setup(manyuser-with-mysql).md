@@ -1,4 +1,4 @@
-<h1>S**hadowsocksR 多用户版安装教程<**/h1>
+<h1>**ShadowsocksR 多用户版安装教程<**/h1>
 <p>注:多用户版需配合 <a href="https://github.com/orvice/ss-panel">ss-panel</a> 等前端使用。</p>
 <p>以下命令均以root用户执行，或sudo方式执行</p>
 <h3>
