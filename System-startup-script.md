@@ -12,6 +12,7 @@
 # Default-Start: 2 3 4 5
 # Default-Stop: 0 1 6
 # Description: Start or stop the Shadowsocks R server
+# Author: Yvonne Lu(Min) <min@utbhost.com>
 ### END INIT INFO
 
 
