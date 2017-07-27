@@ -34,6 +34,8 @@ config: 当action为"config"时使用这个参数表示修改配置，值为配�
 
 
 
+
+
 import urllib
 import urllib2
 
@@ -64,6 +66,8 @@ request = urllib2.Request(url, urllib.urlencode(data))
 response = urllib2.urlopen(request)
 
 print response.read()
+
+
 
 
 
