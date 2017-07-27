@@ -2,35 +2,157 @@
 
 各选项说明（注意，你应该修改使用initcfg.sh脚本初始化后的user-config.json）：
 
-Name	Explanation	中文说明
-server	the address your server listens	监听地址
-server_ipv6	the ipv6 address your server listens	ipv6地址
-server_port	server port	监听端口
-local_address	the address your local listens	本地地址
-local_port	local port	本地端口
-password	password used for encryption	密码
-timeout	in seconds	超时时间
-udp_timeout	in seconds	UDP链超时时间
-udp_cache	cache size	UDP链缓冲区大小
-method	default: "aes-256-cfb", see Encryption	加密方式
-protocol	default："origin"	协议插件，默认"origin"
-protocol_param	default：""	协议插件参数，默认""
-obfs	default："tls1.2_ticket_auth_compatible"	混淆插件，默认"tls1.2_ticket_auth_compatible"
-obfs_param	default：""	混淆插件参数，默认""
-redirect	default：""	重定向参数，默认""
-dns_ipv6	default:false	是否优先使用IPv6地址，有IPv6时可开启
-fast_open	use TCP_FASTOPEN, true / false	快速打开(仅限linux客户端)
-workers	number of workers, available on Unix/Linux	线程（仅限linux客户端）
-verbose	display verbose debug info	显示调试信息
-connect_verbose_info	display connection verbose info	显示连接信息
-forbidden_ip	forbidden IP set for outbound	阻止连接到此IP列表
-forbidden_port	forbidden port set for outbound	阻止连接到此端口列表
-ignore_bind	not bind the IP set	不绑定的IP列表
-out_bind	force bind this IPv4 IP	强制绑定此IPv4地址
-out_bindv6	force bind this IPv6 IP	强制绑定此IPv6地址
-additional_ports	additional ports for multiuser mode	多用户模式下配置额外端口
-speed_limit_per_con	rate limit for each connection	单连接限速，单位KB
-speed_limit_per_user	rate limit for each user	单用户限速，单位KB
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Explanation</th>
+<th>中文说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>server</td>
+<td>the address your server listens</td>
+<td>监听地址</td>
+</tr>
+<tr>
+<td>server_ipv6</td>
+<td>the ipv6 address your server listens</td>
+<td>ipv6地址</td>
+</tr>
+<tr>
+<td>server_port</td>
+<td>server port</td>
+<td>监听端口</td>
+</tr>
+<tr>
+<td>local_address</td>
+<td>the address your local listens</td>
+<td>本地地址</td>
+</tr>
+<tr>
+<td>local_port</td>
+<td>local port</td>
+<td>本地端口</td>
+</tr>
+<tr>
+<td>password</td>
+<td>password used for encryption</td>
+<td>密码</td>
+</tr>
+<tr>
+<td>timeout</td>
+<td>in seconds</td>
+<td>超时时间</td>
+</tr>
+<tr>
+<td>udp_timeout</td>
+<td>in seconds</td>
+<td>UDP链超时时间</td>
+</tr>
+<tr>
+<td>udp_cache</td>
+<td>cache size</td>
+<td>UDP链缓冲区大小</td>
+</tr>
+<tr>
+<td>method</td>
+<td>default: "aes-256-cfb", see Encryption</td>
+<td>加密方式</td>
+</tr>
+<tr>
+<td>protocol</td>
+<td>default："origin"</td>
+<td>协议插件，默认"origin"</td>
+</tr>
+<tr>
+<td>protocol_param</td>
+<td>default：""</td>
+<td>协议插件参数，默认""</td>
+</tr>
+<tr>
+<td>obfs</td>
+<td>default："tls1.2_ticket_auth_compatible"</td>
+<td>混淆插件，默认"tls1.2_ticket_auth_compatible"</td>
+</tr>
+<tr>
+<td>obfs_param</td>
+<td>default：""</td>
+<td>混淆插件参数，默认""</td>
+</tr>
+<tr>
+<td>redirect</td>
+<td>default：""</td>
+<td>重定向参数，默认""</td>
+</tr>
+<tr>
+<td>dns_ipv6</td>
+<td>default:false</td>
+<td>是否优先使用IPv6地址，有IPv6时可开启</td>
+</tr>
+<tr>
+<td>fast_open</td>
+<td>use TCP_FASTOPEN, true / false</td>
+<td>快速打开(仅限linux客户端)</td>
+</tr>
+<tr>
+<td>workers</td>
+<td>number of workers, available on Unix/Linux</td>
+<td>线程（仅限linux客户端）</td>
+</tr>
+<tr>
+<td>verbose</td>
+<td>display verbose debug info</td>
+<td>显示调试信息</td>
+</tr>
+<tr>
+<td>connect_verbose_info</td>
+<td>display connection verbose info</td>
+<td>显示连接信息</td>
+</tr>
+<tr>
+<td>forbidden_ip</td>
+<td>forbidden IP set for outbound</td>
+<td>阻止连接到此IP列表</td>
+</tr>
+<tr>
+<td>forbidden_port</td>
+<td>forbidden port set for outbound</td>
+<td>阻止连接到此端口列表</td>
+</tr>
+<tr>
+<td>ignore_bind</td>
+<td>not bind the IP set</td>
+<td>不绑定的IP列表</td>
+</tr>
+<tr>
+<td>out_bind</td>
+<td>force bind this IPv4 IP</td>
+<td>强制绑定此IPv4地址</td>
+</tr>
+<tr>
+<td>out_bindv6</td>
+<td>force bind this IPv6 IP</td>
+<td>强制绑定此IPv6地址</td>
+</tr>
+<tr>
+<td>additional_ports</td>
+<td>additional ports for multiuser mode</td>
+<td>多用户模式下配置额外端口</td>
+</tr>
+<tr>
+<td>speed_limit_per_con</td>
+<td>rate limit for each connection</td>
+<td>单连接限速，单位KB</td>
+</tr>
+<tr>
+<td>speed_limit_per_user</td>
+<td>rate limit for each user</td>
+<td>单用户限速，单位KB</td>
+</tr>
+</tbody>
+</table>
 其中各protocol与obfs介绍参见：
 
 注：客户端的protocol和obfs配置必须与服务端的一致，除非服务端配置为兼容插件。
