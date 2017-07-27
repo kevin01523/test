@@ -14,7 +14,7 @@
 # Description: Start or stop the Shadowsocks R server
 ### END INIT INFO
 
-# Author: Yvonne Lu(Min) &lt;min@utbhost.com&gt;
+
 
 name=shadowsocks
 PY=/usr/bin/python
