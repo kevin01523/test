@@ -30,9 +30,14 @@ bash initcfg.sh
 <pre><code>API_INTERFACE = 'MuApiV2' //修改接口类型
 
 # 修改如下信息
+API_INTERFACE = 'MuApiV2' //修改接口类型
+
+# 修改如下信息
+```
 mu_uri = 'http://x5.dev/mu'
 node_id = '1'
 token = '123'
+```
 </code></pre>
 <p>接着，运行脚本<code>python server.py</code> 跑起来。</p>
 <h3>
