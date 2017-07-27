@@ -7,7 +7,7 @@
 <ul>
 <li>安装 <a href="https://slproweb.com/products/Win32OpenSSL.html">OpenSSL for Windows</a>
 </li>
-<li>安装 <a href="http://git-scm.com/download/">git</a> 或 <a href="https://github.com/breakwa11/shadowsocks">手动下载zip源码包</a>
+<li>安装 <a href="http://git-scm.com/download/">git</a> 或 <a href="https://github.com/shadowsocksrr/shadowsocksr">手动下载zip源码包</a>
 </li>
 </ul>
 <h2>
