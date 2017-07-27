@@ -10,7 +10,7 @@
 <pre><code>apt-get install git
 </code></pre>
 <p>windows:</p>
-<p><a href="https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup-on-Windows">在Windows上安装服务端/客户端</a></p>
+<p><a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup-on-Windows">在Windows上安装服务端/客户端</a></p>
 <h2>
 <a id="user-content-获取源代码" class="anchor" href="#%E8%8E%B7%E5%8F%96%E6%BA%90%E4%BB%A3%E7%A0%81" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>获取源代码</h2>
 <p><code>git clone -b manyuser https://github.com/shadowsocksr/shadowsocksr.git</code></p>
@@ -139,4 +139,4 @@ the daemon. Note that <code>-d</code> only available on <code>unix</code> like s
 <p>Default address: <code>127.0.0.1</code>
 Default port: 1080</p>
 <p>Note: Python client only supports SOCKS proxy.</p>
-<p>Install on Windows server: <a href="https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup-on-Windows">https://github.com/breakwa11/shadowsocks-rss/wiki/Server-Setup-on-Windows</a></p>
+<p>Install on Windows server: <a href="https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup-on-Windows">https://github.com/Ssrbackup/shadowsocks-rss/wiki/Server-Setup-on-Windows</a></p>
