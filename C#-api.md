@@ -1,9 +1,9 @@
 使用此API可读写所有节点配置和部分客户端配置
 
 首先需要手动添加token，在客户端配置文件内：
-` 	"token" : {`
- 		`"testapp" : "123456"`
-	`},`
+_ 	"token" : {`_
+ 		_`"testapp" : "123456"`_
+	_`},_
 
 其中key为app name，value为token，可随意修改
 
