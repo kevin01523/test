@@ -30,6 +30,8 @@
 
   设置协议为auth_aes128_md5或auth_aes128_sha1，服务端至少设置一个redirect目标。而混淆不管哪种均可，不影响安全性
 
+***
+
 * What does SSR stand for?
 
   SSR is ShadowSocksR, some people call it Shadowsocks-rss which is wrong. RSS stands for Really Simple Syndication.
