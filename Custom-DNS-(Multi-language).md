@@ -2,7 +2,6 @@
 
 在配置文件所在目录下（即shadowsocksr目录下，存在`config.json`和`init.sh`文件，但如果是单用户模式那么建立在其子目录），新建dns.conf文件，内容格式如下：
 ```
-
 8.8.8.8 53
 8.8.4.4 53
 ```
@@ -11,7 +10,6 @@
 
 #方案二 使用系统的DNS配置文件`/etc/resolv.conf`，添加内容：
 ```
-
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
@@ -40,7 +38,6 @@ At the configuration folder (where `config.json` resides), put a new file called
 
 Use the System default resolv.conf.
 ```
-
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
