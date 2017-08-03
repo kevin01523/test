@@ -16,4 +16,6 @@ Docker: <a href="https://hub.docker.com/r/breakwa11/shadowsocksr/">https://hub.d
 ### 本wiki已修改为可用链接  ###
 原版链接** https://github.com/shadowsocksrr/shadowsocks-rss/wiki
 
+代码链接等待修正
+
 **根据2017.07.28 晚查找到的谷歌网页缓存所建立**
