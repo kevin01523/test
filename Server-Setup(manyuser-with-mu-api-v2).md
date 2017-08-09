@@ -16,7 +16,7 @@ apt-get install git
 ```
 获取源代码
 
-`git clone -b manyuser https://github.com/shadowsocksrr/shadowsocksr.git`
+`git clone -b manyuser https://github.com/Ssrbackup/shadowsocksr.git`
 
 执行完毕后此目录会新建一个shadowsocks目录，其中根目录的是多用户版（即数据库版），子目录中的是单用户版。
 
